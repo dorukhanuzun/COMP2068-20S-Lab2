@@ -1,0 +1,20 @@
+{
+  "name": "my-first-app",
+  "version": "1.0.0",
+  "description": "Lab 2",
+  "main": "example-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon example-node.js",
+    "start": "node example-node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorukhanuzun/COMP2068-20S-Lab2.git"
+  },
+  "author": "Dorukhan Uzun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
